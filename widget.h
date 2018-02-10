@@ -2,9 +2,10 @@
 #define WIDGET_H
 
 #include <QLabel>
-#include <QtWidgets>
-#include <QGraphicsSceneMouseEvent>
 #include <QMovie>
+#include <QApplication>
+#include <QDesktopWidget>
+#include <QMouseEvent>
 
 class Label : public QLabel
 {
