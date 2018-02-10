@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/mg">
+        <file>Gif/doom1.gif</file>
+    </qresource>
+</RCC>
