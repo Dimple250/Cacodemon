@@ -28,9 +28,9 @@ void Label::mouseMoveEvent(QMouseEvent *pe){
 
 void Label::moveImage(QMouseEvent *pe){
 
-   if((pe->globalX()>=this->x()-(this->width()/2) 
+   if((pe->globalX()>=this->x()-(this->width()/2)
     && pe->globalX()<=this->x()+(this->width()/2))||
-      (pe->globalX()>=this->x()+(this->width()/2) 
+      (pe->globalX()>=this->x()+(this->width()/2)
     && pe->globalX()<=this->x()+(this->width()))){
         this->move(rand()%(widthDesktop-this->width()*2)+this->width(),
         		   rand()%(heightDesktop-this->height()*2)+this->height());
