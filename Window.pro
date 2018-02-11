@@ -17,5 +17,4 @@ SOURCES += main.cpp\
 
 HEADERS  += widget.h
 
-RESOURCES += \
-    image.qrc
+RESOURCES += image.qrc
