@@ -1,11 +1,7 @@
 #ifndef WIDGET_H
 #define WIDGET_H
 
-#include <QLabel>
-#include <QMovie>
-#include <QApplication>
-#include <QDesktopWidget>
-#include <QMouseEvent>
+#include <QtWidgets>
 
 class Label : public QLabel
 {
